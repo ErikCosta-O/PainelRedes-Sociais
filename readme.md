@@ -1,7 +1,7 @@
 <h1 align="center">Projeto de painel de redes sociais</h1>
 Nesse projeto foi feito um painel de redes sociais, responsivo para telas de celulares 💻 📱 <h1>v0.0.1</h1>
 <hr>
-<a href="https://erikcosta-o.github.io/PainelRedes-Sociais/"><h2>🔗 Link para acessar</h2></a>
+<a href="https://erikcosta-o.github.io/PainelRedes-Sociais/">🔗 Link para acessar</a>
 <h2>Foi utulizado</h2>
 <div>
     <img src="https://img.shields.io/badge/HTML5-fb5607?style=for-the-badge&logo=html5&logoColor=white">
