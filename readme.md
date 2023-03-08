@@ -1,5 +1,5 @@
 <h1 align="center">Projeto de painel de redes sociais</h1>
-Nesse projeto foi feito um painel de redes sociais, responsivo para telas de celulares 💻 📱
+Nesse projeto foi feito um painel de redes sociais, responsivo para telas de celulares 💻 📱 <h1>v0.0.1</h1>
 <hr>
 <a href="#"><h2>🔗 Link para acessar</h2></a>
 <h2>Foi utulizado</h2>
