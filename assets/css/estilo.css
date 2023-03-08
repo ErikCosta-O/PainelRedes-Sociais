@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+*, *:before, *:after { 
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.4s;
+}
+body{
+    background-color: #242423;
+    color: #f6fff8;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+}
+.descrição .titulo{
+    font-size: 2rem;
+    font-style: initial;
+    font-weight: 600;
+}
+.descrição .desc{
+    font-size: 1.2rem;
+    width: 30pc;
+    margin-top: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    top: 10vh;
+}
+.card{
+    width: 40vh;
+    height: 40vh;
+    margin: 2vh;
+    border: 0.2vh solid #9bf6ff;
+    border-radius: 2vh;
+    background-color: #ffffff;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    position: relative;
+    left: 33%;
+    top: 33%;
+}
+.icone img{
+    width: 110px;
+}
+.icone img:hover{
+    transform: scale(1.05);
+}
+.card:hover{
+    transition: 0.4s;
+    transform: translate(-0.09em, -0.09em);
+    background-color: #bcc3ce;
+    border: 0.2vh solid #ff6176;
+    box-shadow: 0.20em 0.20em #ff6176;
+}

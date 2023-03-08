@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px){
+    .descrição .titulo{
+        font-size: 2rem;
+        font-style: initial;
+        font-weight: 600;
+        width: 200px;
+    }
+    .descrição .desc{
+        font-size: 1.2rem;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+
+    .cards{
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+        top: 25vh;
+    }
+    .card{
+        width: 35vh;
+        height: 40vh;
+        margin: 2vh;
+        border: 0.2vh solid #9bf6ff;
+        border-radius: 2vh;
+        background-color: #ffffff;
+    }
+    .icone{
+        display: flex;
+        justify-content: center;
+        width: min-content;
+        position: relative;
+        left: 30%;
+        top: 30%;
+    }
+}
