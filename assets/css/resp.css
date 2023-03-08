@@ -3,7 +3,7 @@
         font-size: 2rem;
         font-style: initial;
         font-weight: 600;
-        width: 200px;
+        width: 250px;
     }
     .descrição .desc{
         font-size: 1.2rem;
@@ -29,7 +29,7 @@
         justify-content: center;
         width: min-content;
         position: relative;
-        left: 33%;
-        top: 35%;
+        left: 22%;
+        top: 20%;
     }
 }
