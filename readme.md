@@ -2,7 +2,6 @@
 Nesse projeto foi feito um painel de redes sociais, responsivo para telas de celulares 💻 📱
 <hr>
 <a href="#"><h2>🔗 Link para acessar</h2></a>
-<br>
 <h2>Foi utulizado</h2>
 <div>
     <img src="https://img.shields.io/badge/HTML5-fb5607?style=for-the-badge&logo=html5&logoColor=white">
