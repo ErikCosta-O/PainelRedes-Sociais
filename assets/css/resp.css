@@ -17,19 +17,19 @@
         top: 25vh;
     }
     .card{
-        width: 35vh;
-        height: 40vh;
+        width: 30vh;
+        height: 30vh;
         margin: 2vh;
         border: 0.2vh solid #9bf6ff;
         border-radius: 2vh;
         background-color: #ffffff;
     }
-    .icone{
+    .card .icone{
         display: flex;
         justify-content: center;
         width: min-content;
         position: relative;
-        left: 30%;
-        top: 30%;
+        left: 33%;
+        top: 35%;
     }
 }
