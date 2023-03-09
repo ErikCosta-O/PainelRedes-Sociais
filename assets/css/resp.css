@@ -40,4 +40,9 @@
         border: 0.50vh solid #d63230;
         box-shadow: 0px 0px 30px -10px rgba(214,50,48,1);
     }
+    aside{
+        position: relative;
+        position: fixed;
+        bottom: 15pc;
+    }
 }
