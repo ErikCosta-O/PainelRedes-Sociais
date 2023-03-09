@@ -10,6 +10,5 @@ Nesse projeto foi feito um painel de redes sociais, responsivo para telas de cel
 <hr>
 <h2>Futuras adições </h2>
 <div>
-    <img src="https://img.shields.io/badge/Xbox-%23107C10.svg?style=for-the-badge&logo=Xbox&logoColor=white">
-    <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">
+    
 </div>
