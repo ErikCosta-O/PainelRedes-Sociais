@@ -40,12 +40,21 @@
                 <a href="https://www.reddit.com/user/Eriky08"><button><img src="./assets/images/reddit.png"></button></a>
             </div>
             <div class="botao">
-                <a href="#"><button><img src="./assets/images/xbox.png"></button></a>
+                <button onclick="focarXbox()" id="btn1"><img src="./assets/images/xbox.png"></button>
             </div>
             <div class="botao">
-                <a href="#"><button><img src="./assets/images/discordia.png"></button></a>
+                <button onclick="focarDisc()" id="btn2"><img src="./assets/images/discordia.png"></button>
             </div>
         </div>
+        <aside id="aviso" onmouseleave="sair()">
+            <div class="infoADD">ID de usuario</div>
+            <div class="infoDesc"><p>Copie aqui, apos copiar vá para o discord e adicione como amigo<p class="p2">" Erikdesu#4290 "</p></p></div>
+        </aside>
+        <aside id="avisoXbox" onmouseleave="sair()">
+            <div class="infoADD">Nome de usuario</div>
+            <div class="infoDesc"><p>Copie aqui, apos copiar vá para o app Xbox e me adicione como amigo<p class="p2">" Adsumus#8376 "</p></p></div>
+        </aside>
     </div>
+    <script src="./assets/js/ts.js"></script>
 </body>
 </html>
