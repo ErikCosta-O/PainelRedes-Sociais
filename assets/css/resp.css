@@ -1,7 +1,6 @@
 @media screen and (max-width: 767px){
     .descrição .titulo{
-        font-size: 2rem;
-        font-style: initial;
+        font-size: 2.2rem;
         font-weight: 600;
         width: 250px;
     }
@@ -12,24 +11,28 @@
     }
     .cards{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         position: relative;
-        top: 25vh;
+        top: 15vh;
     }
-    .card{
-        width: 30vh;
-        height: 30vh;
+    .botao img{
+        width: 80px;
+    }
+    .botao button{
+        width: 18vh;
+        height: 18vh;
+        cursor: pointer;
         margin: 2vh;
-        border: 0.2vh solid #9bf6ff;
+        border: 0.50vh solid #fb5607;
+        box-shadow: 0px 0px 20px -6px rgba(251,86,7,1);
         border-radius: 2vh;
-        background-color: #ffffff;
+        background-color: #f7f7ff;
     }
-    .card .icone{
-        display: flex;
-        justify-content: center;
-        width: min-content;
-        position: relative;
-        left: 22%;
-        top: 20%;
+    button:hover{
+        transition: 0.4s;
+        transform: translate(-0.50em,-0.50em);
+        background-color: #ebebeb;
+        border: 0.50vh solid #8338ec;
+        box-shadow: 0px 0px 20px -6px rgba(131,56,236,1);
     }
 }

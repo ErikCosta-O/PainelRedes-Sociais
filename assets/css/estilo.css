@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 *, *:before, *:after { 
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   transition: all 0.4s;
 }
 body{
-    background-color: #242422;
+    background-color: #1c1c1c;
     color: #f6fff8;
 }
 .conteudo{
@@ -16,52 +16,43 @@ body{
     top: 10vh;
 }
 .descrição .titulo{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-style: initial;
     font-weight: 600;
 }
 .descrição .desc{
     font-size: 1.2rem;
-    width: 30pc;
+    width: 40pc;
     margin-top: 10px;
 }
 .center{
     display: flex;
     justify-content: center;
-    width: 100%;
+    height: max-content;
 }
 .cards{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     position: relative;
-    top: 10vh;
+    top: 15vh;
 }
-.card{
-    width: 40vh;
-    height: 40vh;
+.botao img{
+    width: 100px;
+}
+.botao button{
+    width: 20vh;
+    height: 20vh;
+    cursor: pointer;
     margin: 2vh;
-    border: 0.2vh solid #9bf6ff;
+    border: 0.50vh solid #fb5607;
+    box-shadow: 0px 0px 20px -6px rgba(251,86,7,1);
     border-radius: 2vh;
-    background-color: #ffffff;
+    background-color: #f7f7ff;
 }
-.icone{
-    display: flex;
-    justify-content: center;
-    width: min-content;
-    position: relative;
-    left: 33%;
-    top: 33%;
-}
-.icone img{
-    width: 110px;
-}
-.icone img:hover{
-    transform: scale(1.05);
-}
-.card:hover{
+button:hover{
     transition: 0.4s;
-    transform: translate(-0.09em, -0.09em);
-    background-color: #bcc3ce;
-    border: 0.2vh solid #ff6176;
-    box-shadow: 0.20em 0.20em #ff6176;
+    transform: translate(-0.50em,-0.50em);
+    background-color: #ebebeb;
+    border: 0.50vh solid #8338ec;
+    box-shadow: 0px 0px 20px -6px rgba(131,56,236,1);
 }
