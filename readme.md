@@ -11,5 +11,5 @@ Nesse projeto foi feito um painel de redes sociais, responsivo para telas de cel
 <hr>
 <h2>Futuras adições </h2>
 <div>
-    
+    ...
 </div>
