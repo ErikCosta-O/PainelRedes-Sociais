@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 body{
     background-color: #3c3744;
@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 10vh;
+    top: 5vh;
 }
 .descrição .titulo{
     font-size: 2.5rem;
@@ -34,7 +34,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     position: relative;
-    top: 15vh;
+    top: 10vh;
 }
 .botao img{
     width: 100px;
@@ -49,14 +49,14 @@ body{
     border-radius: 2vh;
     background-color: #f8f9fb;
 }
-button:hover{
+.botao button:hover{
     transition: 0.2s;
     transform: translate(-0.50em,-0.50em);
     background-color: #ebebeb;
     border: 0.50vh solid #171a21;
     box-shadow: 0px 0px 25px -10px rgba(251,255,241,1);
 }
-button:active {
+.botao button:active {
     transform: translate(0.05em, 0.05em);
     border: 0.50vh solid #d63230;
     box-shadow: 0px 0px 30px -10px rgba(214,50,48,1);
@@ -99,4 +99,23 @@ aside{
     color: #8338ec;
     text-decoration: underline;
     font-size: 1.8rem;
+}
+.temas {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+.temas button{
+    width: 90px;
+    height: 30px;
+    border: 0.50vh solid #171a21;
+    margin: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 20px -10px rgba(251,255,241,1);
+    border-radius: 1vh;
+    background-color: #f8f9fb;
+}
+.temas button:active{
+    transform: translate(0.05em, 0.05em);
+    border: 0.50vh solid #d63230;
+    box-shadow: 0px 0px 30px -10px rgba(214,50,48,1);
 }
