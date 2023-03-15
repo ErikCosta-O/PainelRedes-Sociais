@@ -106,8 +106,8 @@ aside{
     width: max-content;
 }
 .temas button{
-    width: 90px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     border: 0.50vh solid #171a21;
     margin: 10px 10px 0px 0px;
     box-shadow: 0px 0px 20px -10px rgba(251,255,241,1);
@@ -118,4 +118,7 @@ aside{
     transform: translate(0.05em, 0.05em);
     border: 0.50vh solid #d63230;
     box-shadow: 0px 0px 30px -10px rgba(214,50,48,1);
+}
+.temas p{
+    font-size: 1rem;
 }
