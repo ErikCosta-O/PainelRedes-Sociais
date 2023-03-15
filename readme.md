@@ -13,3 +13,8 @@ Nesse projeto foi feito um painel de redes sociais, responsivo para telas de cel
 <div>
     ...
 </div>
+<hr>
+<h2>Atualizações</h2>
+<div>
+    Foi adicionado tema claro e escuro
+</div>
