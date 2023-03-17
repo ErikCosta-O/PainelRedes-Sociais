@@ -2,11 +2,11 @@
     .descrição .titulo{
         font-size: 2.2rem;
         font-weight: 600;
-        width: 250px;
+        width: 300px;
     }
     .descrição .desc{
         font-size: 1.2rem;
-        width: 200px;
+        width: 300px;
         margin-top: 10px;
     }
     .cards{
@@ -24,16 +24,13 @@
         cursor: pointer;
         margin: 2vh;
         border: 0.50vh solid #4bb3fd;
-        box-shadow: 0px 0px 20px -10px rgba(251,255,241,1);
         border-radius: 2vh;
-        background-color: #f7f7ff;
+        background-color: #f8f9fb;
     }
     .botao button:hover{
         transition: 0.2s;
         transform: translate(-0.50em,-0.50em);
         background-color: #ebebeb;
-        border: 0.50vh solid #171a21;
-        box-shadow: 0px 0px 25px -10px rgba(251,255,241,1);
     }   
     .botao button:active {
         transform: translate(0.05em, 0.05em);
@@ -50,7 +47,6 @@
         height: 40px;
         border: 0.50vh solid #171a21;
         margin: 10px 10px 0px 0px;
-        box-shadow: 0px 0px 20px -10px rgba(251,255,241,1);
         border-radius: 1vh;
         background-color: #f8f9fb;
     }
