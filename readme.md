@@ -1,5 +1,5 @@
 <h1 align="center">Projeto de painel de redes sociais</h1>
-Nesse projeto foi feito um painel de redes sociais, responsivo para telas de celulares 💻 📱 <h1>v0.2.1</h1>
+Nesse projeto foi feito um painel de redes sociais, responsivo para telas de celulares 💻 📱 <h1>v0.2.2</h1>
 <hr>
 <a href="https://erikcosta-o.github.io/PainelRedes-Sociais/">🔗 Link para acessar</a>
 <h2>Foi utulizado</h2>
@@ -18,4 +18,6 @@ Nesse projeto foi feito um painel de redes sociais, responsivo para telas de cel
 <div>
     <li>Foi adicionado tema claro e escuro</li>
     <li>Atualização de organização dos arquivos do código</li>
+    <li>Tema claro definido como padrão</li>
+    <li>Mudança de icones</li>
 </div>

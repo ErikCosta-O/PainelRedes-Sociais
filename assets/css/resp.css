@@ -23,9 +23,9 @@
         height: 18vh;
         cursor: pointer;
         margin: 2vh;
-        border: 0.50vh solid #4bb3fd;
-        border-radius: 2vh;
-        background-color: #f8f9fb;
+        border: 0.60vh solid #4bb3fd;
+        border-radius: 2vh 0vh 2vh 2vh;
+        background-color: #f8f9fa;
     }
     .botao button:hover{
         transition: 0.2s;
