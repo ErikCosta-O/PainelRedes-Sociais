@@ -6,8 +6,8 @@
   transition: all 0.2s;
 }
 body{
-    background-color: #111111;
-    color: #ffffff;
+    background-color: #fdfffc;
+    color: #011627;
 }
 .conteudo{
     display: flex;
